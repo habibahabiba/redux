@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+html {
+  line-height: 1.15;
+}
+
+
+.done{
+  text-decoration: line-through;
+}
+.Button{
+align-items: left;
+}
+
+.task{
+    margin-top: 3%;
+    align-items: center;
+    display: inline-flex;
+    margin-left: 3%;
+    border-style: inset;
+    border-color:rgb(255, 0, 255) ;
+    color:white
+;
+width: 20%;
+height: 10%;
+}
+body {
+  background: linear-gradient(
+    190deg,
+    rgb(33, 18, 43) 0%,
+    rgb(33, 25, 56) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #222;
+  overflow: hidden;
+}
+
+.App {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.App h1 {
+  display: inline;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #e1ebfd;
+  text-shadow: 0 0 5px #433aa8, 3px -1px 5px #271c6c;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Neue", sans-serif;
+}
+
+
+
+
